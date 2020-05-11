@@ -8,7 +8,15 @@
     tools:context=".MainActivity">
 
     <Button
+        android:textColor="#ffffff"
+        android:background="@drawable/bg_button_shape"
         android:text="Shape Button"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:background="@drawable/selector_button"
+        android:text="State list"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
